@@ -2,8 +2,12 @@
   "manifest_version": 3,
   "name": "Telegram Location Mapper",
   "version": "1.0",
-  "description": "Annotate Ivano-Frankivsk mentions on Telegram Web.",
-  "permissions": ["storage","activeTab","scripting"],
+  "description": "Annotate City street & place mentions on Telegram Web.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
   "host_permissions": [
     "https://web.telegram.org/*",
     "https://nominatim.openstreetmap.org/*",
@@ -18,11 +22,22 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_icon": { "48": "icons/icon48.png" }
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
   },
   "web_accessible_resources": [
     {
-      "resources": ["leaflet.css","leaflet.js","popup.js","config.js","icons/*"],
+      "resources": [
+        "config.json",
+        "loadConfig.js",
+        "leaflet.css",
+        "leaflet.js",
+        "popup.html",
+        "popup.js",
+        "content_script.js",
+        "icons/*"
+      ],
       "matches": ["<all_urls>"]
     }
   ],
