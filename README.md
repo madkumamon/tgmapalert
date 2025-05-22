@@ -35,6 +35,9 @@ Edit **config.json** to tweak:
 
 Reload the extension after any changes.
 
+![image](https://github.com/user-attachments/assets/fcf541f7-8816-4c45-b91a-1dc5145f6bd4)
+![image](https://github.com/user-attachments/assets/353fd533-a874-4e77-b64f-caa0eec863de)
+
 ---
 
 Enjoy mapping your Telegram feed!
